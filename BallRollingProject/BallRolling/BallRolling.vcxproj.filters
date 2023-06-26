@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{7d3a2775-9cd2-44df-9c11-f853ff6295f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene">
+      <UniqueIdentifier>{e4b3e3a4-6761-4c6e-ac69-422cceef4878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameMain">
+      <UniqueIdentifier>{7956ce73-538f-4542-b8ac-74112560ae01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameMain">
+      <UniqueIdentifier>{1989971f-9a89-4cdc-aebd-d718cb53352f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BallRollingMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Controll.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawBoxUI.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameRateControll.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClearScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C3DMain.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C3DTitle.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C3DItem.cpp">
+      <Filter>ソース ファイル\GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="C3DPrism.cpp">
+      <Filter>ソース ファイル\GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="C3DSphere.cpp">
+      <Filter>ソース ファイル\GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソース ファイル\GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckHit.cpp">
+      <Filter>ソース ファイル\GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorManager.cpp">
+      <Filter>ソース ファイル\GameMain</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Controll.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawBoxUI.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameRateControll.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractScene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C3DMain.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClearScene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C3DTitle.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C3DItem.h">
+      <Filter>ヘッダー ファイル\GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="C3DPrism.h">
+      <Filter>ヘッダー ファイル\GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="C3DSphere.h">
+      <Filter>ヘッダー ファイル\GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ヘッダー ファイル\GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckHit.h">
+      <Filter>ヘッダー ファイル\GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="FloorManager.h">
+      <Filter>ヘッダー ファイル\GameMain</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
