@@ -80,6 +80,6 @@ BallRollingGameはビルドデータになります。
 # License
 DX Library Copyright (C) 2001-2023 Takumi Yamada.
 
-https://github.com/Mitsuki-2-3/Mitsukiportfolio/issues/2#issue-2025273240
+[License.txt](https://github.com/Mitsuki-2-3/Mitsukiportfolio/files/13555652/License.txt)
 
 END 
